@@ -8,7 +8,7 @@ module.exports = {
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "./dist"),
-    publicPath: "",
+    publicPath: "auto", // Explicitly define the base URL
   },
   mode: "development",
   devServer: {
